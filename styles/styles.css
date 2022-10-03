@@ -1,0 +1,36 @@
+body{
+    
+    height: 100vh;
+    background-image:linear-gradient(135deg, #13f1fc 0%,#0470dc 100%);
+    background-repeat: no-repeat;
+    padding: 0;
+    margin:0;
+}
+
+nav {
+    
+    height: 100%;
+    width: 12%;
+    
+    position: fixed;
+    background-color: white;
+    margin-left: 88%;
+}
+
+li{
+    list-style: none;
+}
+img#icon{
+    width: 60%;
+    height: 60%;
+    padding-top: 40%;
+    margin-left: 5%;
+    
+}
+img#icon :hover{
+    width: 70%;
+    height: 70%;
+    padding-top: 50%;
+    margin-left: 5%;
+    
+}
