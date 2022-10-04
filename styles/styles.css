@@ -1,3 +1,8 @@
+@font-face {
+    font-family:"TangoSans";
+    src: url("../font/TangoSans.ttf");
+}
+
 body{
     
     height: 100vh;
@@ -11,26 +16,52 @@ nav {
     
     height: 100%;
     width: 12%;
-    
     position: fixed;
-    background-color: white;
+    background-color: #03224c;
     margin-left: 88%;
+    min-width: 150;
 }
-
+p{
+    background-color: white;
+    opacity: 0;
+}
+p:hover{
+    opacity: 1;
+    transition: 2s;
+}
 li{
     list-style: none;
 }
 img#icon{
-    width: 60%;
-    height: 60%;
-    padding-top: 40%;
-    margin-left: 5%;
+    width: 40%;
+    height: 40%;
+    padding-top: 10%;
+    margin-top: 30%;
+    padding: 5%;
+    transition: 0.5s;
+    filter: brightness(0) invert(1);
+}
+
+img#icon:hover{
+    
+    width: 50%;
+    height: 50%;
+    filter: invert(49%) sepia(55%) saturate(5940%) hue-rotate(207deg) brightness(103%) contrast(101%);
+    transition: 0.5s;
+}
+div.block_menu{
+    margin-left: -20%;
+    margin-top: -20%;
+    color: #03224c;
+    text-align: center;
+    font-size: 110%;
+    font-family: TangoSans;
+    transition: 1s;
+
     
 }
-img#icon :hover{
-    width: 70%;
-    height: 70%;
-    padding-top: 50%;
-    margin-left: 5%;
+div.block_menu:hover{
     
+    color: white;
+    transition: 1s;
 }
