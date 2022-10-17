@@ -67,7 +67,7 @@ div.block_menu{
     margin-top: -20%;
     color: transparent;
     text-align: center;
-    font-size: clamp(1px,100%,10px);
+    font-size: clamp(5px,5em,13px);
     font-family: TangoSans;
     transition: 1s;
     
@@ -77,4 +77,16 @@ div.block_menu:hover{
     
     color: white;
     transition: 1s;
+}
+table {
+    width: 60%;
+    position: fixed;
+    
+}
+
+td {
+    width: 20%;
+}
+th{
+    width: 1;
 }
